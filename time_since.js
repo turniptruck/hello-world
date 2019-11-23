@@ -9,4 +9,4 @@ var now = new Date();
 var ts = now - ab;
 var weeks = Math.floor(ts/1000/3600/24/7);
 var days = Math.floor(ts/1000/3600/24)-weeks*7;
-alert(`It has been ${weeks} and ${days} since she was lost.
+alert(`It has been ${weeks} and ${days} since she was lost.`);
